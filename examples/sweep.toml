@@ -1,0 +1,18 @@
+[parameters]
+initial_fraction = 0.02
+tta_radius = 3.5
+tpq_radius = 3.5
+polaron_density = 0.001
+
+[numerics]
+bins = 24
+r_max = 60.0
+quadrature_order = 32
+
+[solver]
+t_end = 10.0
+samples = 101
+
+[sweep]
+dexter_rate = [0.0, 3.4482758620689653, 34.48275862068966]
+polaron_density = [0.0001, 0.001]

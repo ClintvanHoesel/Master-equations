@@ -1,0 +1,21 @@
+# Length: nm; time: microseconds; density: nm^-3.
+[parameters]
+lifetime = 1.0
+initial_fraction = 0.02
+polaron_density = 0.001
+tta_radius = 3.5
+tpq_radius = 3.5
+diffusion_radius = 0.0
+dexter_rate = 0.0
+dexter_length = 0.15
+
+[numerics]
+bins = 24
+r_max = 60.0
+quadrature_order = 32
+rtol = 1e-6
+atol = 1e-9
+
+[solver]
+t_end = 10.0
+samples = 161

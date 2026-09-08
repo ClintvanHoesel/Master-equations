@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated experiments and local notebook/OS state
+results/
+.virtual_documents/
+*:Zone.Identifier

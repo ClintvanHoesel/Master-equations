@@ -1,0 +1,20 @@
+[parameters]
+generation_rate = 0.01
+initial_fraction = 0.02
+tta_radius = 3.0
+tpq_radius = 3.5
+polaron_density = 0.001
+dexter_rate = 34.48275862068966
+dexter_length = 0.15
+
+[numerics]
+bins = 24
+r_max = 60.0
+quadrature_order = 32
+rtol = 1e-7
+atol = 1e-10
+
+[solver]
+max_time = 1000.0
+rtol = 1e-6
+atol = 1e-9

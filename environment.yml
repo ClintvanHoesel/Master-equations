@@ -1,0 +1,16 @@
+name: me
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - pip
+  - numpy>=1.26
+  - scipy>=1.12
+  - matplotlib>=3.8
+  - openpyxl>=3.1
+  - pytest>=8
+  - ruff>=0.9
+  - setuptools>=77
+  - ipykernel>=6.29
+  - nbclient>=0.10
+  - nbformat>=5.10
